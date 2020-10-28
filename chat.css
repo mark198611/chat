@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+}
+
+.header {
+  background: #6200EA 0% 0% no-repeat padding-box; 
+  width: 75%;
+  height: 10vh;
+  float: right;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+img {
+  border-radius: 100%;
+  width: 3vw;
+}
+
+.nav{
+  width: 25%;
+  height: 60%;
+}
+
+
+.main {
+  background: #F4F3F5 0% 0% no-repeat padding-box;
+  float: right;
+  width: 75%;
+  height: 100vh;
+  padding: 2rem;
+  position: absolute;
+  top: 10vh;
+  right: 0px;
+}
+
+.1 {
+  position: relative;
+}
